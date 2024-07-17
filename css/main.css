@@ -20,6 +20,8 @@ a {
 	transition: color 300ms ease-out;
 }
 
+
+
 .introduction {
 
 	margin-top: 80px;
@@ -159,4 +161,9 @@ figure:hover {
 	font-size: 11px;
 	margin: 10px 0 0 0;
 	color: #555;
+}
+
+.logomain{
+	width: 50px;
+
 }

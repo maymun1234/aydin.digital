@@ -72,3 +72,8 @@ touch-action: manipulation;
     padding: 20px 0px 20px 0px;
     box-sizing: border-box;
 }
+
+.logomain{
+	width: 50%;
+    margin-left: 25%;
+}
