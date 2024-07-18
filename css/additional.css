@@ -165,16 +165,20 @@ p{
     display: flex;
     justify-content: center;
     
-    font-size: 50px;
+    font-size: 70px;
     color:  rgb(23, 64, 198);
     
     width: 100%;
+    overflow: hidden;
 
     
 }
 .entertext p{
      color: #F4CE14;  
      font-family: "Bebas Neue", sans-serif; 
+     transform: rotate(-30deg);
+     padding: 0;
+     margin: 0;
 }
 
 footer{
@@ -190,6 +194,7 @@ footer p{
     font-family: "lora", serif;
     font-weight: 900;
     font-style: normal;
+    
     color: #222;
     
 }
