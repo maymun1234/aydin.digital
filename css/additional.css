@@ -7,6 +7,11 @@
     font-style: normal;
   }
 
+  p{
+    font-family: "Rubik Mono One", monospace;
+    color: #f0f0f0;
+}
+
   .bebas-neue-regular {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
@@ -112,9 +117,29 @@ touch-action: manipulation;
 
 .carddd{
     width: 80%;
-    height: 200px;
-    background-color: #379777;
+    min-height: 200px;
+    border: 2px solid #379777;
     margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+    
+}
+
+
+.carddd p{
+    font-family: "lora", serif;
+    color: #379777;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.carddd h1{
+    font-size: 4em;
+    color: wheat;
+    
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .headerr {
@@ -138,10 +163,7 @@ touch-action: manipulation;
     max-height: 30px;
 }
 
-p{
-    font-family: "Rubik Mono One", monospace;
-    color: #f0f0f0;
-}
+
 
 .menu{
     position: fixed;
