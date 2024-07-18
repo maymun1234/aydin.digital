@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
@@ -49,7 +50,8 @@ float: center;
 }
 
 html, body {
-    background: #222;
+    background-color: wheat;
+
     margin: 0;
     padding: 0;
     cursor: none;
@@ -103,7 +105,7 @@ touch-action: manipulation;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 50px;
-    background-color: #45474B;
+    background-color: wheat;
     
     
     
@@ -118,10 +120,11 @@ touch-action: manipulation;
 .carddd{
     width: 80%;
     min-height: 200px;
-    border: 2px solid #379777;
+    border: 0px solid #379777;
     margin-bottom: 10px;
     padding: 10px;
-    border-radius: 0px;
+    border-radius: 10px;
+    background-color: wheat;
 
     
 }
@@ -131,7 +134,7 @@ touch-action: manipulation;
     font-family: "lora", serif;
     background-color: ;
     color: ;
-    color: #379777;
+    color: #222;
     font-weight: 500;
     font-size: 20px;
     font-style: normal;
@@ -139,7 +142,7 @@ touch-action: manipulation;
 
 .carddd h1{
     font-size: 3em;
-    color: wheat;
+    color: #222;
     
     margin: 0px;
     font-family: "Rubik Mono One", monospace;
@@ -147,11 +150,11 @@ touch-action: manipulation;
 }
 
 .carddd a{
-    color: #F4CE14;
+    color: #379777;
     text-decoration: none;
 }
 .colored-word {
-    color: #F4CE14; /* Renkli olmasını istediğiniz rengi buraya yazabilirsiniz */
+    color: #379777; /* Renkli olmasını istediğiniz rengi buraya yazabilirsiniz */
 }
 .headerr {
     width: 100%;
@@ -166,7 +169,7 @@ touch-action: manipulation;
     padding-left: 20%;
     padding-right: 2%;
     justify-content: center;
-    border-bottom: 2px solid #F4CE14;
+    border-bottom: 2px solid #379777;
     z-index: 10000;
 }
 
@@ -179,6 +182,7 @@ touch-action: manipulation;
 .menu{
     position: fixed;
     top: 0px;
+    z-index: 10000;
     right: 0px;
     width: 20%;
     background-color: #F4CE14;
@@ -189,11 +193,11 @@ touch-action: manipulation;
     color: #45474B;
     font-size: 100%;
     justify-content: center;
-    border-bottom: 2px solid #F4CE14;
+    border-bottom: 2px solid #379777;
 }
 
 .entertext{
-    background-color: wheat;
+    background-color: #F4CE14;
     height: 100%;
     display: flex;
     justify-content: center;
