@@ -83,7 +83,7 @@ touch-action: manipulation;
     
     padding: 0px;
     padding: 50px 0px 20px 0px;
-    margin-top: 50px;
+    
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -91,6 +91,7 @@ touch-action: manipulation;
     flex-wrap: wrap;
     flex-direction: column;
     gap: 50px;
+    background-color: #45474B;
     
     
     
@@ -112,16 +113,18 @@ touch-action: manipulation;
 .headerr {
     width: 100%;
     height: 50px;
-    right: 100px;
-    background-color: rgb(23, 64, 198);
+    right: 20%;
+    background-color: #379777;
     position: fixed;
     top: 0px;
     display: flex;           /* Flexbox ile hizalama */
     /* Yatay ortalama */
     align-items: center;     /* Dikey ortalama */
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 2%;
     justify-content: center;
+    border-bottom: 1px solid #F4CE14;
+    z-index: 10000;
 }
 
 .headerr .imglogo {
@@ -137,19 +140,32 @@ p{
     position: fixed;
     top: 0px;
     right: 0px;
-    width: 100px;
-    background-color: rgb(124, 24, 24);
+    width: 20%;
+    background-color: #F4CE14;
     height: 50px;
     align-items: center; 
     display: flex;
     font-family: "Bebas Neue", sans-serif;
-    color: #f0f0f0;
+    color: #222;
     font-size: 200%;
     justify-content: center;
+    border-bottom: 1px solid #F4CE14;
 }
 
 .entertext{
-    font-family: "Rubik Mono One", monospace;
-    font-size: 500%;
+    background-color: #379777;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+    font-size: 50px;
     color:  rgb(23, 64, 198);
+    
+    width: 100%;
+
+    
+}
+.entertext p{
+     color: #F4CE14;  
+     font-family: "Bebas Neue", sans-serif; 
 }
