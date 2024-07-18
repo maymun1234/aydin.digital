@@ -160,23 +160,23 @@ p{
 }
 
 .entertext{
-    background-color: #379777;
+    background-color: wheat;
     height: 100%;
     display: flex;
     justify-content: center;
     
-    font-size: 70px;
+    font-size: 200px;
     color:  rgb(23, 64, 198);
-    
+    padding-top: 80px;
     width: 100%;
     overflow: hidden;
 
     
 }
 .entertext p{
-     color: #F4CE14;  
+     color: #379777;  
      font-family: "Bebas Neue", sans-serif; 
-     transform: rotate(-30deg);
+     transform: rotate(-25deg);
      padding: 0;
      margin: 0;
 }
