@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 .rubik-mono-one-regular {
     font-family: "Rubik Mono One", monospace;
     font-weight: 400;
@@ -11,6 +13,11 @@
     font-style: normal;
   }
 
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
 #bueyuk-harf {
     position: absolute;
     
@@ -106,7 +113,7 @@ touch-action: manipulation;
 .carddd{
     width: 80%;
     height: 200px;
-    background-color: red;
+    background-color: #379777;
     margin-bottom: 10px;
 }
 
@@ -168,4 +175,21 @@ p{
 .entertext p{
      color: #F4CE14;  
      font-family: "Bebas Neue", sans-serif; 
+}
+
+footer{
+    background-color: #F4CE14;
+    padding: 1%;
+    border-top: 1px solid #379777;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+footer p{
+    font-family: "lora", serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #222;
+    
 }
