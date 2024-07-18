@@ -130,15 +130,15 @@ touch-action: manipulation;
 .carddd p{
     font-family: "lora", serif;
     background-color: ;
+    color: ;
     color: #379777;
-    color: wheat;
     font-weight: 500;
     font-style: normal;
 }
 
 .carddd h1{
     font-size: 4em;
-    color: #F4CE14;
+    color: wheat;
     
     margin: 0px;
     font-family: "Bebas Neue", sans-serif;
