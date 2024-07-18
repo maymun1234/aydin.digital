@@ -146,7 +146,7 @@ touch-action: manipulation;
 
 .carddd h1{
     font-size: 3em;
-    color: #222;
+    color: #45474B;
     
     margin: 0px;
     font-family: "Rubik Mono One", monospace;
@@ -173,7 +173,7 @@ touch-action: manipulation;
     padding-left: 20%;
     padding-right: 2%;
     justify-content: center;
-    border-bottom: 2px solid #379777;
+    border-bottom: 2px solid  #45474B;
     z-index: 10000;
 }
 
@@ -197,7 +197,7 @@ touch-action: manipulation;
     color: #45474B;
     font-size: 100%;
     justify-content: center;
-    border-bottom: 2px solid #379777;
+    border-bottom: 2px solid  #45474B;
 }
 
 .entertext{
@@ -206,7 +206,7 @@ touch-action: manipulation;
     display: flex;
     justify-content: center;
     
-    font-size: 80px;
+    font-size: 60px;
     color:  rgb(23, 64, 198);
     padding-top: 80px;
     padding-bottom: 100px;
