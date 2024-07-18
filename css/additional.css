@@ -129,17 +129,20 @@ touch-action: manipulation;
 
 .carddd p{
     font-family: "lora", serif;
+    background-color: ;
     color: #379777;
+    color: wheat;
     font-weight: 500;
     font-style: normal;
 }
 
 .carddd h1{
     font-size: 4em;
-    color: wheat;
+    color: #F4CE14;
     
     margin: 0px;
     font-family: "Bebas Neue", sans-serif;
+    
 }
 
 .headerr {
@@ -152,7 +155,7 @@ touch-action: manipulation;
     display: flex;           /* Flexbox ile hizalama */
     /* Yatay ortalama */
     align-items: center;     /* Dikey ortalama */
-    padding-left: 20px;
+    padding-left: 20%;
     padding-right: 2%;
     justify-content: center;
     border-bottom: 2px solid #F4CE14;
