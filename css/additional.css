@@ -135,8 +135,10 @@ touch-action: manipulation;
 
 
 .carddd p{
-   font-family: "Open Sans", sans-serif;
-    background-color: ;
+   font-family: "lora", serif;
+    font-weight: 500;
+    font-style: normal;
+	background-color: ;
     color: ;
     color: #222;
     font-weight: 500;
