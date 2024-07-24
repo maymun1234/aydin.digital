@@ -263,3 +263,22 @@ button{
     border: 0;
     width: 10px; /* Genişlik çok küçük, ihtiyaca göre ayarlayın */
 }
+
+.imgbox .topbutton, .imgbox .topbutton2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain; /* Resmi kapsayacak şekilde ölçeklendir */
+    background-position: center; /* Resmi ortala */
+    background-repeat: no-repeat;
+    width: 15vh;
+    height: 15vh;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+}
+
+.imgbox .topbutton img, .imgbox .topbutton2 img {
+    margin: auto;
+} 
