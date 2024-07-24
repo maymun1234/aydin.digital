@@ -265,9 +265,6 @@ button{
 }
 
 .imgbox .topbutton, .imgbox .topbutton2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-size: contain; /* Resmi kapsayacak şekilde ölçeklendir */
     background-position: center; /* Resmi ortala */
     background-repeat: no-repeat;
@@ -276,9 +273,30 @@ button{
     border: none;
     background-color: transparent;
     text-align: center;
+    
+    justify-content: center;
+    align-items: center;
     padding: 0;
 }
 
-.imgbox .topbutton img, .imgbox .topbutton2 img {
-    margin: auto;
-} 
+.imgbox .topbutton {
+    background-image: url('whitebox.png');
+}
+
+.imgbox .topbutton2 {
+    background-image: url('orangebox.png');
+}
+
+.imgbox button img {
+  
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1000px) {
+    .imgbox{
+        display: none;
+    }
+}
+
+
