@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'bubble';
+    src: url('font/BubbleBobble-rg3rx.ttf') format('truetype');
+}
+
+
+
+body {
+    font-family: 'bubble';
+    padding: 0;
+    margin: 0;
+    background-color: orange;
+    height: 95vh;
+    padding-top: 5vh;
+    background-image: url('background.png');
+    background-size: cover; /* Arka plan resmini kapsayacak şekilde ölçeklendir */
+    overflow: hidden;
+}
+
+button{
+    font-family: 'bubble';
+    font-size: 5.1vh;
+}
+
+.languagebar {
+    position: fixed;
+    left: 0;
+    top: 15%;
+    background-color: transparent;
+    width: 60px;
+    z-index: 1000; /* Üstte kalması için */
+}
+
+.socialbar {
+    position: fixed;
+    
+    bottom: 20px;
+    height: 60px; /* Yüksekliği ayarla */
+    width: 200px;
+  /* Genişliği ayarla */
+    color: white; /* Yazının görünür olması için */
+     /* Yazıyı ortala */
+    padding: 10px; /* Padding ekle */
+    padding-left: 100px;
+    background-image: url('socialmedia.png');
+    background-size: contain; /* Resmi kapsayacak şekilde ölçeklendir */
+    background-position: center; /* Resmi ortala */
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+}
+
+
+.socialbar button{
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    margin-top: 10px;
+    margin-right: 2px;
+}
+.socialbar img{
+    height: 38px;
+    
+}
+
+.languagebar img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50px;
+}
+
+.divs {
+    display: flex;
+    height: 100vh; /* Yüksekliği %100 olarak ayarla */
+    padding-top: 0vh;
+}
+
+.imgbox {
+    width: 50%; /* Genişliği %50 olarak ayarla */
+    height: 90vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end; /* İçeriği aşağı hizala */
+    align-items: center; /* İçeriği ortala */
+    position: relative;
+}
+
+.imgbox img {
+    width: 65%; /* Görüntüyü kapsayacak şekilde ayarla */
+    height: auto; /* Görüntünün yüksekliğini otomatik ayarla */
+    padding-left: 30%;
+}
+
+.imgbox .spacer {
+    flex: 1;
+    width: 100%; /* Spacer'ın tüm boşluğu kaplamasını sağlar */
+}
+.imgbox .imgboxtop{
+    position: absolute;
+    top: 0px;
+    margin-left: 10vh;
+}
+
+.motivationbox{
+    background-image: url('Motivationbox.png');
+    background-size: contain; /* Resmi kapsayacak şekilde ölçeklendir */
+    background-position: center; /* Resmi ortala */
+    background-repeat: no-repeat;
+    position: absolute;
+    border: 0;
+    background-color: transparent;
+    right: 20px;
+    bottom: 20px;
+    height: 200px; /* Yüksekliği ayarla */
+    width: 20%;
+    font-family: Calibri;
+    font-weight: 600;
+    font-size: 3vh;
+    justify-content: center;
+}
+
+
+.imgbox .topbutton{
+    background-image: url('whitebox.png');
+    background-size: contain; /* Resmi kapsayacak şekilde ölçeklendir */
+    background-position: center; /* Resmi ortala */
+    background-repeat: no-repeat;
+    width:  15vh;
+    height: 15vh;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    
+}
+
+.imgbox .topbutton2{
+    background-image: url('orangebox.png');
+    background-size: contain; /* Resmi kapsayacak şekilde ölçeklendir */
+    background-position: center; /* Resmi ortala */
+    background-repeat: no-repeat;
+    width:  15vh;
+    height: 15vh;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+}
+
+.imgbox button img{
+    height: 50px;
+}
+
+.divbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 95vh; /* Yüksekliği %80 olarak ayarla */
+    overflow: scroll;
+    box-sizing: border-box;
+    margin-left: auto; /* Sağ tarafa yerleştir */
+    margin-right: auto; /* Ortala */
+    scrollbar-width: 5px;
+    scrollbar-color: black;
+    overflow-x: hidden;
+}
+
+
+.divbox::-webkit-scrollbar {
+    height: 5px;
+    width: 0px; /* Scrollbar yüksekliği */
+}
+
+.divbox::-webkit-scrollbar-thumb {
+    background-color: black; /* Scrollbar rengi */
+    border-radius: 5px; /* Scrollbar köşe yuvarlama */
+}
+
+
+.askbox{
+    background-image: url('orangebox.png');
+    margin-right: 50px;
+    
+}
+.divbox .item {
+    flex: 1 1 45%; /* Her eleman genişliğinin %45'ini kaplar */
+    padding: 10px;
+    
+    margin-left: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    height: 25vh;
+    background-image: url('whitebox.png');
+    background-size: contain; /* Resmi kapsayacak şekilde ölçeklendir */
+    background-position: center; /* Resmi ortala */
+    background-repeat: no-repeat;
+    font-family: Calibri;
+    font-weight: 600;
+    font-size: 2.5vh;
+    overflow: hidden;
+    
+}
+
+.rightbox {
+    width: 25%;
+    height: 80%;
+   
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Dikey hizalama için */
+    align-items: center; /* Yatayda ortalama */
+    justify-content: flex-start; /* Üstten başlatma */
+    padding-top: 10px;
+    box-sizing: border-box;
+
+}
+
+.rightbox .logodiv {
+    display: flex;
+    height: 10%;
+    width: 100%; /* Logoyu yatayda ortalamak için */
+    align-items: center; /* Yatayda ortalama */
+    justify-content: center; /* Yatayda ortalama */
+    margin-bottom: 2vh;
+}
+
+.rightbox button {
+    display: block;
+    width: 80%; /* Buton genişliği */
+    height: 10%;
+    margin-bottom: 10px; /* Elemanlar arasında boşluk */
+    text-align: center; /* Metni ortalama */
+    box-sizing: border-box;
+    background-size: contain; /* Resmi kapsayacak şekilde ölçeklendir */
+    background-position: center; /* Resmi ortala */
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 80px;
+    border: none;
+}
+
+.rightbox .girlbutton{
+    background-image: url('girlsbutton.png');
+    padding-right: 50px;
+}
+
+.rightbox .boysbutton{
+    background-image: url('boysbutton.png');
+    padding-right: 50px;
+}
+
+
+
+.logodiv img{
+    height: 100%;
+}
+
+.column {
+    background-color: transparent;
+    border: 0;
+    width: 10px; /* Genişlik çok küçük, ihtiyaca göre ayarlayın */
+}
