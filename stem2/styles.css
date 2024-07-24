@@ -194,7 +194,7 @@ button{
     padding-top: 30px;
     height: 25vh;
     background-image: url('whitebox.png');
-    background-size: contain; /* Resmi kapsayacak şekilde ölçeklendir */
+    background-size: cover; /* Resmi kapsayacak şekilde ölçeklendir */
     background-position: center; /* Resmi ortala */
     background-repeat: no-repeat;
     font-family: Calibri;
