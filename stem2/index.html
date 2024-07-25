@@ -29,9 +29,18 @@
     <div class="divbox">
         <div class="item">1. Eleman</div>
         <div class="item">Lorem Ipsum Lorem
-            Ipsum Lorem Ipsum 
-            Lorem IpsumLorem Ipsum Lorem
+            Ipsum
              </div>
+
+             <div class="item">Lorem Ipsum Lorem
+                Ipsum 
+                 </div>
+                 <div class="item">Lorem Ipsum Lorem
+                    Ipsum 
+                     </div>
+                     <div class="item">Lorem Ipsum Lorem
+                        Ipsum Lorem 
+                         </div>
         <div class="item">3. Eleman</div>
         <div class="item">4. Eleman</div>
         <div class="item">5. Eleman</div>
@@ -66,24 +75,21 @@
         <img src="trflag.png" alt="">
         <img src="engflag.png" alt="">
     </div>
-<script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            const divbox = document.querySelector('.divbox');
-            
-            window.addEventListener('wheel', (e) => {
-                if (e.deltaY > 0) {
-                    divbox.scrollTop += 30; // Scroll down
-                } else {
-                    divbox.scrollTop -= 30; // Scroll up
-                }
-            });
-        });
-    </script> 
+
     <div class="socialbar">
         <button><img src="facebookicon.png" alt=""></button>
         <button><img src="yticon.png" alt=""></button>
         <button><img src="instaicon.png" alt=""></button>
         <button><img src="tumblricon.png" alt=""></button>
     </div>
+
+    <script>document.addEventListener('scroll', function() {
+        const divbox = document.querySelector('.divbox');
+        const scrollY = window.scrollY;
+        const windowHeight = window.innerHeight;
+        
+        // Sayfa kaydırıldıkça divbox'ın yüksekliğini ayarla
+        divbox.style.height = `${windowHeight - scrollY}px`;
+    });</script>
 </body>
 </html>

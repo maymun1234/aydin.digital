@@ -17,6 +17,11 @@ body {
     overflow: hidden;
 }
 
+
+button a.button{
+    color: black;
+}
+
 button{
     font-family: 'bubble';
     font-size: 5.1vh;
@@ -117,7 +122,8 @@ button{
     width: 20%;
     font-family: Calibri;
     font-weight: 600;
-    font-size: 3vh;
+    font-size: 1.5vw;
+    aspect-ratio: 2 / 1.5;
     justify-content: center;
 }
 
@@ -164,7 +170,10 @@ button{
     scrollbar-width: 5px;
     scrollbar-color: black;
     overflow-x: hidden;
+    overflow: auto;
 }
+
+
 
 
 .divbox::-webkit-scrollbar {
@@ -178,30 +187,46 @@ button{
 }
 
 
-.askbox{
-    background-image: url('orangebox.png');
-    margin-right: 50px;
-    
-}
+
 .divbox .item {
-    flex: 1 1 45%; /* Her eleman genişliğinin %45'ini kaplar */
+    flex: 0 0 48%; /* Her elemanın genişliği %48 olacak şekilde ayarla */
     padding: 10px;
-    
-    margin-left: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
     box-sizing: border-box;
     text-align: center;
     margin-bottom: 10px;
-    padding-top: 30px;
-    
-    background-image: url('whitebox.png');
+    padding-top: 1%;
+    padding-bottom: 5%;
+  
+    background-image: url(whitebox.png);
     background-size: cover; /* Resmi kapsayacak şekilde ölçeklendir */
     background-position: center; /* Resmi ortala */
     background-repeat: no-repeat;
     font-family: Calibri;
     font-weight: 600;
-    font-size: 2.5vh;
+    font-size: 1.5vw;
+    aspect-ratio: 2 / 1.5;
     overflow: hidden;
-    aspect-ratio: 3 / 4; 
+
+    /* Flexbox ile içeriği dikeyde ortala */
+    display: flex;
+    align-items: center; /* Dikeyde ortala */
+    justify-content: center; /* Yatayda ortala (isteğe bağlı) */
+}
+
+  
+  
+
+@media (max-width: 750px) {
+    .divbox .item {
+        
+        aspect-ratio: 2 / 1.5;
+    }
+
+    .divbox{
+        width: 50%;
+    }
 }
 
 .rightbox {
@@ -240,11 +265,15 @@ button{
     background-color: transparent;
     height: 80px;
     border: none;
+    font-size: 3vw;
 }
+
+
 
 .rightbox .girlbutton{
     background-image: url('girlsbutton.png');
     padding-right: 50px;
+    
 }
 
 .rightbox .boysbutton{
@@ -297,6 +326,30 @@ button{
     .imgbox{
         display: none;
     }
+
+
+    .rightbox button {
+        display: block;
+        /* Buton genişliği */
+        height: 10%;
+        margin-bottom: 10px; /* Elemanlar arasında boşluk */
+        text-align: center; /* Metni ortalama */
+        box-sizing: border-box;
+        background-size: contain; /* Resmi kapsayacak şekilde ölçeklendir */
+        background-position: center; /* Resmi ortala */
+        background-repeat: no-repeat;
+        background-color: transparent;
+        height: 80px;
+        border: none;
+        font-size: 5vw;
+    }
 }
 
+
+.askbox{
+    background-image: url('orangebox.png');
+    margin-right: 50px;
+    font-size: 1vw;
+    
+}
 
