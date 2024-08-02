@@ -26,26 +26,22 @@
     </head>
     <body>
  
-   
-<div class="headerr">
-    <a href="index.html"><img src="aydinbeyaz.png" class="imglogo" alt=""></a>
-    
+   <div id="ustheader">
 </div>
-<a href="work.html"><div class="menu">work  </div></a>
 
 
 <div class="genis-div">
-    <div class="entertext"><p class=>merhaba!</p></div>
+    <div class="entertext"><p class=>Merhaba!</p></div>
    
    
     <div class="carddd">
-        <h1>Ben<span class="colored-word"> bercan</span></h1>
+        <h1>Merhaba! <br>Ben<span class="colored-word"> bercan</span></h1>
         <p>
             Bilgisayar mühendisliği öğrencisiyim ve web tasarım üzerine çalışıyorum.
             <br>
             Asıl tecrübem web tasarım ve unity konusunda.
             <br><br>
-            Benle çalışmak isterseniz bionluk profilim:   <br> 
+            Benle çalışmak isterseniz bionluk profilim:
         
         <a href="https://bionluk.com/bercanaydin">Bionluk</a>
         <br><br>
@@ -69,9 +65,7 @@
             
         
         <div id="container"></div>
-        <footer><p>2024 <br> <br>Bu web sitesi makarna ve sevgi ile kodlanmıştır :&#41;
-        </p>
-<br>
+        <footer id="footer">
             
         </footer>
         
@@ -231,6 +225,14 @@
                 
 
             </script>
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+  $(document).ready(function(){
+    $("#ustheader").load("https://aydin.digital/script/header.txt");
+    $("#footer").load("https://aydin.digital/script/footer.txt");
+  }); 
+        </script>
     </body>
 </html>
