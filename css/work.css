@@ -1,0 +1,14 @@
+.workcard{
+    width: 200px;
+    height: 400px;
+    margin: 50px;
+    background-color: red;
+}
+
+.workbody{
+    display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+     
+}

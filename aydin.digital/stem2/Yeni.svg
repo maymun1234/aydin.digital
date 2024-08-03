@@ -1,0 +1,12 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1500" width="2000" height="1500">
+	<title>Yeni Proje</title>
+	<style>
+		.s0 { fill: #000000;stroke: #000000;stroke-miterlimit:10 } 
+		.s1 { fill: #ffffff;stroke: #000000;stroke-miterlimit:10 } 
+	</style>
+	<g id="Layer 1">
+		<path id="Şekil 1" fill-rule="evenodd" class="s0" d="m0 0h2000v1274l-1411-20.2-344 246.2h-245"/>
+		<path id="Şekil 1 copy" fill-rule="evenodd" class="s0" d="m0 0h2000v1274l-1411-20.2-344 246.2h-245"/>
+		<path id="Şekil 2" fill-rule="evenodd" class="s1" d="m1849 82l-1736 12 30 1018 1710 72z"/>
+	</g>
+</svg>

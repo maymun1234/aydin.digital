@@ -1,11 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); 
-
-
 .rubik-mono-one-regular {
     font-family: "Rubik Mono One", monospace;
     font-weight: 400;
@@ -13,7 +9,7 @@
   }
 
   p{
-    font-family: "Rubik Mono One", monospace;
+    font-family: "Montserrat", monospace;
     color: #f0f0f0;
 }
 
@@ -133,12 +129,10 @@ touch-action: manipulation;
     
 }
 
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .carddd p{
-   font-family: "lora", serif;
-    font-weight: 500;
-    font-style: normal;
-	background-color: ;
+    font-family: "montserrat", serif;
+    background-color: ;
     color: ;
     color: #222;
     font-weight: 500;
@@ -148,7 +142,7 @@ touch-action: manipulation;
 
 .carddd h1{
     font-size: 3em;
-    color: #45474B;
+    color: #1A2130;
     
     margin: 0px;
     font-family: "Rubik Mono One", monospace;
@@ -175,7 +169,7 @@ touch-action: manipulation;
     padding-left: 20%;
     padding-right: 2%;
     justify-content: center;
-    border-bottom: 2px solid  #45474B;
+    border-bottom: 2px solid #379777;
     z-index: 10000;
 }
 
@@ -199,7 +193,7 @@ touch-action: manipulation;
     color: #45474B;
     font-size: 100%;
     justify-content: center;
-    border-bottom: 2px solid  #45474B;
+    border-bottom: 2px solid #379777;
 }
 
 .entertext{
@@ -208,7 +202,7 @@ touch-action: manipulation;
     display: flex;
     justify-content: center;
     
-    font-size: 60px;
+    font-size: 80px;
     color:  rgb(23, 64, 198);
     padding-top: 80px;
     padding-bottom: 100px;
@@ -236,8 +230,8 @@ footer{
 }
 
 footer p{
-    font-family: "lora", serif;
-    font-weight: 900;
+    font-family: "montserrat";
+    font-weight: 600;
     font-style: normal;
     color:wheat;
     

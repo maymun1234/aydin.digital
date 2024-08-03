@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teenders</title>
+   
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    
+   
+    <div class="divs">
+     
+        <div class="imgbox">
+            <div class="imgboxtop">
+                <button class="topbutton">
+                    <img style="display: block; margin: auto;" src="carrot.png" alt="">
+                </button>
+           <button class="topbutton2" id="orange">
+            <img style="display: block; margin: auto;" src="arrow.png" alt="">
+           </button>
+            </div>
+           
+            <img src="animegirl.png" alt="">
+        </div>
+       
+    <div class="divbox">
+        <div class="item">1. Eleman</div>
+        <div class="item">Lorem Ipsum Lorem
+            Ipsum
+             </div>
+
+             <div class="item">Lorem Ipsum Lorem
+                Ipsum 
+                 </div>
+                 <div class="item">Lorem Ipsum Lorem
+                    Ipsum 
+                     </div>
+                     <div class="item">Lorem Ipsum Lorem
+                        Ipsum Lorem 
+                         </div>
+        <div class="item">3. Eleman</div>
+        <div class="item">4. Eleman</div>
+        <div class="item">5. Eleman</div>
+        <div class="item">6. Eleman</div>
+        <div class="item">1. Eleman</div>
+        <div class="item">2. Eleman</div>
+        <div class="item">3. Eleman</div>
+        <div class="item">4. Eleman</div>
+        <div class="item">5. Eleman</div>
+        <div class="item">6. Eleman</div>
+    </div>
+    <div class="rightbox">
+        <div class="logodiv">
+            <img src="teenders.png" alt="">
+        </div>
+        
+            <button class="askbox">Ask Us</button>
+            <button class="boysbutton">Boys</button>
+            <button class="girlbutton">Girls</button>
+    
+        
+    </div>
+
+    
+
+
+</div>
+<button class="motivationbox">Lorem Ipsum Lorem
+    Ipsum Lorem Ipsum 
+    Lorem Ipsum </button>
+    <div class="languagebar">
+        <img src="trflag.png" alt="">
+        <img src="engflag.png" alt="">
+    </div>
+
+    <div class="socialbar">
+        <button><img src="facebookicon.png" alt=""></button>
+        <button><img src="yticon.png" alt=""></button>
+        <button><img src="instaicon.png" alt=""></button>
+        <button><img src="tumblricon.png" alt=""></button>
+    </div>
+
+    <script>document.addEventListener('scroll', function() {
+        const divbox = document.querySelector('.divbox');
+        const scrollY = window.scrollY;
+        const windowHeight = window.innerHeight;
+        
+        // Sayfa kaydırıldıkça divbox'ın yüksekliğini ayarla
+        divbox.style.height = `${windowHeight - scrollY}px`;
+    });</script>
+</body>
+</html>
