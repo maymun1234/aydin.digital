@@ -4,5 +4,5 @@ new kursor({
 })
 new kursor({
    
-    color: '#dfff0c'
+    
 })
