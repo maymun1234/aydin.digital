@@ -19,6 +19,10 @@
     text-decoration: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 .workcard p{
     font-family: "Montserrat", monospace;
