@@ -7,12 +7,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Mono&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
     <title>Aydın digital</title>
     <link rel="stylesheet" href="css/example.css">
     <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="css/additional.css">
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
     <style type="text/css">
         /* Custom styles here */
     </style>
@@ -20,7 +21,7 @@
 <body>
     <div id="ustheader"></div>
     <div class="genis-div">
-        <div class="entertext"><p class=>Merhaba!</p></div>
+        <div class="entertext" ><p class=>Merhaba!</p></div>
         <div class="carddd" data-aos="fade-up" data-aos-duration="1000">
             <h1>Merhaba! <br>Ben<span class="colored-word"> bercan</span></h1>
             <p>
@@ -48,8 +49,19 @@
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script src="script/cursor.js"></script>
     <script src="script/cursor2.js"></script>
-    <script src="script/cursor.js"></script>
-    <script src="script/cursor2.js"></script>
+    
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var adContainer = document.getElementById("ad-container");
+            var adWarning = document.getElementById("ad-warning");
+
+            // AdBlocker tespiti
+            if (adContainer.clientHeight === 0) {
+                adWarning.style.display = 'block';
+            }
+        });
+    </script>
     <script>
         $(document).ready(function(){
             $("#ustheader").load("https://aydin.digital/script/header.txt");
