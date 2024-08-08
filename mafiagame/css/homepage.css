@@ -41,5 +41,5 @@
     margin: 0; /* Paragrafın varsayılan margin'ini kaldırır */
     text-align: center; /* Yazıyı ortalar */
     width: 100%;
-    background-color: var(--secondbackground);
+    
 }

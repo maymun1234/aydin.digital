@@ -1,4 +1,4 @@
-@media (min-width: 700px) {
+@media (min-width: 800px) {
     .bottom-nav {
         display: none;
     }
@@ -8,6 +8,7 @@
     
     .item{
         font-size: 20px;
+        height: 170px;
     }
 
     main{
@@ -36,16 +37,17 @@
   
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .menu{
         display: none;
     }
     .item{
-        height: 100px;
+        height: 80px;
         font-size: 10px;
     }
 
     .container{
+        padding-top: 20px;
         max-width: 80%;
     }
 
