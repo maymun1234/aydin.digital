@@ -8,7 +8,8 @@
     background-color: var(--secondbackground); /* Arka plan rengi, opsiyonel */
     border: 0px solid #ddd; /* Sınır rengi, opsiyonel */
     border-radius: 5px;
-    padding: 20px; /* İç boşluk, opsiyonel */
+    padding: 0px; /* İç boşluk, opsiyonel */
+
     box-sizing: border-box; /* Padding ve border dahil toplam genişlik */
     color: var(--white);
     
@@ -17,7 +18,7 @@
 .item img {
     width: 100%; /* Resmi konteynıra sığdırır */
     height: auto; /* Resmin yüksekliğini orantılı tutar */
-    margin-bottom: 10px; /* Resim ile yazı arasına boşluk ekler */
+    margin-bottom: 0px; /* Resim ile yazı arasına boşluk ekler */
 }
 
 .item p {
