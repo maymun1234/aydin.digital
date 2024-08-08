@@ -1,17 +1,29 @@
 .container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Her satıra 4 sütun ekler */
+    grid-template-columns: repeat(5, 1fr); /* Her satıra 4 sütun ekler */
     gap: 10px; /* Divler arasındaki boşluk */
+    margin-bottom: 20px;
+    background: rgb(50,67,99);
+    background: rgb(50,67,99);
+    background: linear-gradient(0deg, rgb(39, 52, 77) 0%, rgba(20,29,44,1) 53%);
+    border-radius: 5px;
+    justify-content: center;
+    justify-items: center; /* Öğeleri yatayda ortalar */
+    align-content: center;
 }
 
 .item {
-    background-color: var(--secondbackground); /* Arka plan rengi, opsiyonel */
+     /* Arka plan rengi, opsiyonel */
     border: 0px solid #ddd; /* Sınır rengi, opsiyonel */
-    border-radius: 5px;
+    position: relative;
     padding: 0px; /* İç boşluk, opsiyonel */
-
+    height: 180px;
+    overflow: hidden;
     box-sizing: border-box; /* Padding ve border dahil toplam genişlik */
     color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -22,7 +34,10 @@
 }
 
 .item p {
+    position: absolute;
+    bottom: 0;
     margin: 0; /* Paragrafın varsayılan margin'ini kaldırır */
     text-align: center; /* Yazıyı ortalar */
     width: 100%;
+    background-color: var(--secondbackground);
 }

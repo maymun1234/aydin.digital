@@ -13,8 +13,22 @@
     }
 
     body{
-        padding: 0px;
+        padding-left: 20px;
+        padding-top: 20px;
     }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr); /* Her satıra 4 sütun ekler */
+        justify-content: center;
+        justify-items: center; /* Öğeleri yatayda ortalar */
+    align-content: center;
+    
+        justify-content: center;
+    }
+
+
+    
   
 }
 
@@ -22,7 +36,10 @@
     .menu{
         display: none;
     }
-    
+    .item{
+        height: 100px;
+    }
+
 
 }
 
