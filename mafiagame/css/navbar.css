@@ -150,7 +150,7 @@
     top: 60px;
     height: 30px;
     width: 100%;
-    background-color: #324363;
+    background-color: var(--secondbackground);
     z-index: 1000;
     left: 0;
     display: flex; /* Flexbox'u etkinleştirir */

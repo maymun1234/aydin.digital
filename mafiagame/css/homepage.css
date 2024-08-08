@@ -5,11 +5,10 @@
     margin-bottom: 20px;
     background: rgb(50,67,99);
     background: rgb(50,67,99);
-    background: linear-gradient(0deg, rgb(39, 52, 77) 0%, rgba(20,29,44,1) 53%);
+    background: linear-gradient(0deg, #4c2124 0%, rgba(20,29,44,1) 53%);
     border-radius: 5px;
     justify-content: center;
-    justify-items: center; /* Öğeleri yatayda ortalar */
-    align-content: center;
+    
 }
 
 .item {
