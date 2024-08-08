@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Her satıra 4 sütun ekler */
+    gap: 10px; /* Divler arasındaki boşluk */
+}
+
+.item {
+    background-color: var(--secondbackground); /* Arka plan rengi, opsiyonel */
+    border: 0px solid #ddd; /* Sınır rengi, opsiyonel */
+    border-radius: 5px;
+    padding: 20px; /* İç boşluk, opsiyonel */
+    box-sizing: border-box; /* Padding ve border dahil toplam genişlik */
+    color: var(--white);
+    
+}
+
+.item img {
+    width: 100%; /* Resmi konteynıra sığdırır */
+    height: auto; /* Resmin yüksekliğini orantılı tutar */
+    margin-bottom: 10px; /* Resim ile yazı arasına boşluk ekler */
+}
+
+.item p {
+    margin: 0; /* Paragrafın varsayılan margin'ini kaldırır */
+    text-align: center; /* Yazıyı ortalar */
+    width: 100%;
+}

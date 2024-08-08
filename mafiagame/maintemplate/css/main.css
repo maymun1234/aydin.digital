@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+    margin: 0;
+    padding: 20px;
+
+    font-family:"Montserrat", monospace;
+    background-color: var(--backgroundcolor);
+}
+
+:root{
+    --backgroundcolor: #141d2c;
+    --white: #ffffff;
+    --active: #af0e0e;
+
+}
+
+
+
+.material-icons{
+    color: var(--white);
+    font-size: 24px;
+}
+
+
+main {
+    margin-top: 60px; /* Header yüksekliği kadar boşluk bırak */
+    padding: 20px;
+}
+
+
+
+
+.material-icons:hover {
+    color: var(--active);
+}
+
+.material-icons {
+    font-size: 24px;
+}
+
+
+.material-icons.active{
+    color: var(--active);
+}
+
+
+
+p{
+    color: var(--white);
+}
+

@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mafia Game</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
-  
-    <link rel="stylesheet" href="additional.css">
-  
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/additional.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/homepage.css">
 </head>
 <body>
     <header class="header">
@@ -16,33 +18,79 @@
             <img src="https://via.placeholder.com/150x40?text=Logo" alt="Logo">
         </div>
       
-            <label class="burger" for="burger">
-                <input type="checkbox" id="burger">
-                <span></span>
-                <span></span>
-                <span></span>
-              </label>
+       
+
+          <nav class="nav">
+            <input id="checkbox" type="checkbox" class="ncheckbox">
+        <label class="toggle" for="checkbox">
+            <div id="bar1" class="bars"></div>
+            <div id="bar2" class="bars"></div>
+            <div id="bar3" class="bars"></div>
+        </label>
+            <ul class="menu">
+                <li class="menu-item"><a href="#">Kat1</a></li>
+                <li class="menu-item"><a href="#">kat2</a></li>
+                <li class="menu-item dropdown">
+                    <a href="#">kat3</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Service 1</a></li>
+                        <li><a href="#">Service 2</a></li>
+                        <li><a href="#">Service 3</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+        </nav>
     </header>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam quae dolores maxime officiis vitae voluptatum eos ducimus eum maiores, odit fuga consequatur non officia, aliquid esse culpa voluptatem debitis deleniti?</p>
+    <div class="databox">
+        <img src="img/—Pngtree—gold dollar 3d coin_5548093.png" alt=""><p>500 coin</p>
+        </div>
+    <main>
+        <div class="container">
+            <div class="item"><img src="img/diamond.png" alt="">
+           <p>Div 1</p>
+        </div>
+            <div class="item"><img src="img/diamond.png" alt="">
+                <p>Div 1</p>
+            </div>
+            <div class="item"><img src="img/diamond.png" alt="">
+                <p>Div 1</p>
+            </div>
+            <div class="item"><img src="img/diamond.png" alt="">
+                <p>Div 1</p>
+            </div>
+            <div class="item"><img src="img/diamond.png" alt="">
+                <p>Div 1</p>
+            </div>
+            <div class="item"><img src="img/diamond.png" alt="">
+                <p>Div 1</p>
+            </div>
+            <div class="item"><img src="img/diamond.png" alt="">
+                <p>Div 1</p></div>
+            <div class="item">Div 8</div>
+            <!-- Daha fazla div ekleyebilirsiniz -->
+        </div>
+        </main>
+        <div class="mobilemenu">
+            bdgbggfbb
+        </div>
     <div class="bottom-nav">
-        
         <div class="nav-item">
-            <span class="material-icons">
-                account_balance
-                </span>
+            <span class="material-icons">account_balance</span>
             <span class="nav-label">Banka</span>
         </div>
         <div class="nav-item">
             <span class="material-icons active">dashboard</span>
             <span class="nav-label">Anasayfa</span>
         </div>
-        
         <div class="nav-item">
-            <span class="material-icons">
-                attach_money
-                </span>
+            <span class="material-icons">attach_money</span>
             <span class="nav-label">Suç</span>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+
+    <script src="script/menu.js"></script>
 </body>
 </html>
