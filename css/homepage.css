@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Her satıra 4 sütun ekler */
+    gap: 20px; /* Divler arasındaki boşluk */
+    margin-bottom: 20px;
+    background: rgb(50,67,99);
+    background: rgb(50,67,99);
+    background: linear-gradient(0deg, #4c2124 0%, rgba(20,29,44,1) 53%);
+    border-radius: 5px;
+    justify-content: center;
+   
+    align-items: center;
+    margin: auto;
+}
+
+.item {
+     /* Arka plan rengi, opsiyonel */
+    border: 0px solid #ddd; /* Sınır rengi, opsiyonel */
+    position: relative;
+    padding: 0px; /* İç boşluk, opsiyonel */
+    height: 140px;
+    overflow: hidden;
+    box-sizing: border-box; /* Padding ve border dahil toplam genişlik */
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    
+}
+
+.item img {
+    width: 100%; /* Resmi konteynıra sığdırır */
+    height: auto; /* Resmin yüksekliğini orantılı tutar */
+    margin-bottom: 0px; /* Resim ile yazı arasına boşluk ekler */
+}
+
+.item p {
+    position: absolute;
+    bottom: 0;
+    margin: 0; /* Paragrafın varsayılan margin'ini kaldırır */
+    text-align: center; /* Yazıyı ortalar */
+    width: 100%;
+    
+}

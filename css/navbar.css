@@ -1,0 +1,168 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: var(--backgroundcolor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px #26354f;
+    z-index: 1000;
+}
+
+
+.logo img {
+    height: 40px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: var(--backgroundcolor);
+}
+
+.menu-item {
+    position: relative;
+    margin-left: 20px;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.menu-item a:hover {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--backgroundcolor);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.dropdown-menu li {
+    padding: 0;
+}
+
+.dropdown-menu li a {
+    color: var(--text-color);
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background-color 0.3s;
+}
+
+.dropdown-menu li a:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.menu-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: var(--backgroundcolor);
+    box-shadow: 0 -1px 10px #26354f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+
+.nav-label {
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+
+.header .material-icons {
+    font-size: 40px; /* Header içindeki ikon boyutu */
+}
+
+
+
+.mobilemenu{
+    position: fixed;
+    display: none;
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    color: aliceblue;
+    background-color: var(--backgroundcolor);  
+    list-style-type: none;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.mobilemenu a{
+    color: var(--white);
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.databox{
+    position: fixed;
+    top: 60px;
+    height: 30px;
+    width: 100%;
+    background-color: var(--secondbackground);
+    z-index: 1000;
+    left: 0;
+    display: flex; /* Flexbox'u etkinleştirir */
+    justify-content: center; /* İçeriği yatayda ortalar */
+    align-items: center;
+}
+
+.databox img {
+    color: white; /* Yazı rengini beyaz yapar, opsiyonel */
+    margin: 0 10px;
+    height: 45px; /* Spans arasına boşluk ekler, opsiyonel */
+    margin: 0px;
+    padding: 0;
+    margin-left: 20px;
+}
