@@ -51,7 +51,9 @@
         max-width: 80%;
     }
 
-
+    main{
+        margin-top: 20px;
+    }
 }
 
 
