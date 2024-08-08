@@ -156,6 +156,7 @@
     display: flex; /* Flexbox'u etkinleştirir */
     justify-content: center; /* İçeriği yatayda ortalar */
     align-items: center;
+    gap: 3px;
 }
 
 .databox img {
@@ -164,5 +165,5 @@
     height: 45px; /* Spans arasına boşluk ekler, opsiyonel */
     margin: 0px;
     padding: 0;
-    margin-left: 20px;
+    
 }
