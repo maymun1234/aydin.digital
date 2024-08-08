@@ -1,7 +1,7 @@
 .container {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* Her satıra 4 sütun ekler */
-    gap: 50px; /* Divler arasındaki boşluk */
+    gap: 40px; /* Divler arasındaki boşluk */
     margin-bottom: 20px;
     background: rgb(50,67,99);
     background: rgb(50,67,99);
@@ -23,7 +23,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    font-size: 25px;
 }
 
 .item img {
