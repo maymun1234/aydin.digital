@@ -6,6 +6,9 @@
         display: none;
     }
     
+    .item{
+        font-size: 20px;
+    }
 
     main{
         padding-left: 0px;
@@ -19,11 +22,12 @@
 
     .container {
         display: grid;
-        grid-template-columns: repeat(8, 1fr); /* Her satıra 4 sütun ekler */
+        grid-template-columns: repeat(5, 1fr); /* Her satıra 4 sütun ekler */
         justify-content: center;
         justify-items: center; /* Öğeleri yatayda ortalar */
     align-content: center;
-    
+    width: 45%;
+    font-size: 15px;
         justify-content: center;
     }
 
@@ -38,6 +42,11 @@
     }
     .item{
         height: 100px;
+        font-size: 10px;
+    }
+
+    .container{
+        max-width: 80%;
     }
 
 

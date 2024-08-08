@@ -8,7 +8,9 @@
     background: linear-gradient(0deg, #4c2124 0%, rgba(20,29,44,1) 53%);
     border-radius: 5px;
     justify-content: center;
-    
+   
+    align-items: center;
+    margin: auto;
 }
 
 .item {
@@ -16,7 +18,7 @@
     border: 0px solid #ddd; /* Sınır rengi, opsiyonel */
     position: relative;
     padding: 0px; /* İç boşluk, opsiyonel */
-    height: 180px;
+    height: 140px;
     overflow: hidden;
     box-sizing: border-box; /* Padding ve border dahil toplam genişlik */
     color: var(--white);
