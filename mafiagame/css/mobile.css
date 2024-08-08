@@ -6,6 +6,15 @@
         display: none;
     }
     
+
+    main{
+        padding-left: 0px;
+        padding-right: 00x;
+    }
+
+    body{
+        padding: 0px;
+    }
   
 }
 
@@ -14,6 +23,7 @@
         display: none;
     }
     
+
 }
 
 
