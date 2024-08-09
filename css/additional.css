@@ -1,52 +1,259 @@
-#checkbox {
-  display: none;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.rubik-mono-one-regular {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  p{
+    font-family: "Montserrat", monospace;
+    color: #f0f0f0;
 }
 
-.toggle {
-  position: relative;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  transition-duration: .3s;
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+ 
+
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+#bueyuk-harf {
+    position: absolute;
+    
+    top: 40%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 20vw; /* Ekranın %10'u kadar genişlik */
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    cursor: none;
+   
+    user-select: none; /* Metni seçilemez yapar */
 }
 
-.bars {
-  width: 100%;
-  height: 4px;
-  background-color: rgb(253, 255, 243);
-  border-radius: 5px;
-  transition-duration: .3s;
+#alt-buton {
+position: absolute;
+top: 80%; /* Yazının altına yerleştirildi, istediğiniz konuma göre ayarlayabilirsiniz */
+width: 100%;
+float: center;
+
+
 }
 
-/* #checkbox:checked + .toggle .bars {
-  margin-left: 13px;
-} */
+html, body {
+    background-color: wheat;
 
-#checkbox:checked + .toggle #bar2 {
-  transform: translateY(14px) rotate(60deg);
-  margin-left: 0;
-  transform-origin: right;
-  transition-duration: .3s;
-  z-index: 2;
+    margin: 0;
+    padding: 0;
+    cursor: none;
+    font-family: 'Roboto', sans-serif;
 }
 
-#checkbox:checked + .toggle #bar1 {
-  transform: translateY(28px) rotate(-60deg);
-  transition-duration: .3s;
-  transform-origin: left;
-  z-index: 1;
+
+
+#container {
+    position: relative;
 }
 
-#checkbox:checked + .toggle {
-  transform: rotate(-90deg);
+.Mahekjain-button-1 {
+all: unset;
+position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+width: 100px;
+height: 30px;
+font-size: 16px;
+background: transparent;
+border: none;
+position: relative;
+color: #f0f0f0;
+cursor: pointer;
+z-index: 1;
+padding: 10px 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+white-space: nowrap;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+
 }
-/* #checkbox:checked + .toggle #bar3 {
-  transform: rotate(90deg);
-  transition-duration: .3s;
-  transform-origin:right;
-} */
+
+
+.genis-div {
+    width: 100%;
+    
+    padding: 0px;
+    padding: 50px 0px 20px 0px;
+    
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 50px;
+    background-color: wheat;
+    
+    
+    
+
+}
+
+.logomain{
+	width: 50%;
+   
+}
+
+.carddd{
+    width: 80%;
+    min-height: 200px;
+    border: 0px solid #379777;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: wheat;
+
+    
+}
+
+
+.carddd p{
+    font-family: "montserrat",sans-serif;;
+    background-color: ;
+    color: ;
+    color: #222;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.carddd h1{
+    font-size: 3em;
+    color: #1A2130;
+    
+    margin: 0px;
+    font-family: "Rubik Mono One", monospace;
+    
+}
+
+.carddd a{
+    color: #379777;
+    text-decoration: none;
+}
+.colored-word {
+    color: #379777; /* Renkli olmasını istediğiniz rengi buraya yazabilirsiniz */
+}
+.headerr {
+    width: 100%;
+    height: 50px;
+    right: 20%;
+    background-color: #379777;
+    position: fixed;
+    top: 0px;
+    display: flex;           /* Flexbox ile hizalama */
+    /* Yatay ortalama */
+    align-items: center;     /* Dikey ortalama */
+    padding-left: 20%;
+    padding-right: 2%;
+    justify-content: center;
+    border-bottom: 2px solid #379777;
+    z-index: 10000;
+}
+
+.headerr .imglogo {
+    max-height: 30px;
+}
+
+
+
+.menu{
+    position: fixed;
+    top: 0px;
+    z-index: 10000;
+    right: 0px;
+    width: 20%;
+    background-color: #F4CE14;
+    height: 50px;
+    align-items: center; 
+    display: flex;
+    font-family: "Rubik Mono One", monospace;
+    color: #379777;
+    font-size: 100%;
+    justify-content: center;
+    border-bottom: 2px solid #379777;
+}
+
+.entertext{
+    background-color: #F4CE14;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+    font-size: 70px;
+    color:  rgb(23, 64, 198);
+    padding-top: 80px;
+    padding-bottom: 100px;
+    width: 100%;
+    overflow: hidden;
+
+    
+}
+.entertext p{
+     color: #379777;  
+     font-family: "Rubik Mono One", monospace;
+     transform: rotate(-25deg);
+     padding: 0;
+     margin: 0;
+
+}
+
+footer{
+   background-color: #379777;
+    padding: 1%;
+    border-top: 2px solid #379777;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+footer p{
+    font-family: "montserrat",sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color:wheat;
+    
+    
+    
+}
+
+.ad-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 100000000;
+
+    background-color: #f3f3f3;
+}
+.ad-warning {
+    display: none;
+    color: red;
+    font-weight: bold;
+}

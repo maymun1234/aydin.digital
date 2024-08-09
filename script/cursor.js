@@ -132,5 +132,4 @@ function Particle( x, y, radius ) {
             }
         };
         
-        <script src="script/cursor.js"></script>
-        <script src="script/cursor2.js"></script>
+       
