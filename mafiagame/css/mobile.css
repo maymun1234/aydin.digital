@@ -1,41 +1,72 @@
-@media (min-width: 800px) {
-    .bottom-nav {
-        display: none;
-    }
-    .toggle{
-        display: none;
-    }
-    
-    .item{
-        font-size: 15px;
-        height: 170px;
-    }
+    @media (min-width: 800px) {
 
-    main{
-        padding-left: 0px;
-        padding-right: 00x;
-    }
-
-    body{
-        padding-left: 20px;
-        padding-top: 20px;
-    }
-
-    .container {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr); /* Her satıra 4 sütun ekler */
-        justify-content: center;
-        justify-items: center; /* Öğeleri yatayda ortalar */
-    align-content: center;
-    width: 45%;
-    font-size: 15px;
-        justify-content: center;
-    }
+        .toggle {
+            display: none;
+        }
+        
+        .item {
+            font-size: 15px;
+            height: 170px;
+                
+        }
 
 
-    
-  
+        main{
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .bottom-nav {
+            height: 80px;
+        }
+
+        main {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        body {
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+
+        .bottom-nav .material-icons {
+            font-size: 50px; /* Header içindeki ikon boyutu */
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr); /* Her satıra 2 sütun ekler */
+            justify-content: center;
+            justify-items: center; /* Öğeleri yatayda ortalar */
+            align-content: center;
+            width: 80%; /* Genişliği %40 olarak ayarlar */
+            font-size: 15px;
+            gap: 20px; /* Divler arasındaki boşluk */
+            margin-bottom: 20px;
+        
+            border-radius: 5px;
+            justify-content: center;
+        align-items: center;
+        margin: auto;
+        }
+    }
+
+
+
+.item {
+    border: 0px solid #ddd;
+    position: relative;
+    padding: 0px;
+    height: 140px;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
 }
+
 
 @media (max-width: 800px) {
     .menu{
@@ -43,17 +74,35 @@
     }
     .item{
         height: 80px;
-        font-size: 8px;
+        aspect-ratio: ;
+        font-size: 9px;
         text-transform: uppercase;
     }
 
     .container{
         padding-top: 20px;
         max-width: 100%;
+        gap: 40px;
+    }
+
+    .container {
+    
+        grid-template-columns: repeat(5, 1fr); /* Her satıra 5 sütun ekler */
+        gap: 20px; /* Divler arasındaki boşluk */
+        margin-bottom: 20px;
+       
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
     }
 
     main{
         margin-top: 20px;
+    }
+
+    .bottom-nav .material-icons {
+        font-size: 30px; /* Header içindeki ikon boyutu */
     }
 }
 

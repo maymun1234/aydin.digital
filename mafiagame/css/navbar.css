@@ -14,6 +14,11 @@
 }
 
 
+.material-icons-mobilemenu{
+    color: red;
+    font-size: 30px;
+}
+
 .logo img {
     height: 40px;
 }
@@ -90,7 +95,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 60px;
+    height: 65px;
     background-color: var(--backgroundcolor);
     box-shadow: 0 -1px 10px #26354f;
     display: flex;
@@ -115,7 +120,7 @@
 }
 
 
-.header .material-icons {
+.bottom-nav .material-icons {
     font-size: 40px; /* Header içindeki ikon boyutu */
 }
 
@@ -140,9 +145,14 @@
 .mobilemenu a{
     color: var(--white);
     text-decoration: none;
-    text-align: center;
+    text-align: left;
+    
     margin-bottom: 20px;
 }
+
+
+
+
 
 
 .databox{
